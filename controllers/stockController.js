@@ -1,5 +1,5 @@
-import Stock from "../models/Stock.js";
-import Product from "../models/Product.js";
+import Stock from "../models/stock.js";
+import Product from "../models/product.js";
 
 // CREATE STOCK (CORE LOGIC)
 export const createStock = async (req, res) => {

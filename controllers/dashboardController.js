@@ -50,9 +50,9 @@
 //   }
 // };
 
-import Product from "../models/Product.js";
-import Stock from "../models/Stock.js";
-import Sale from "../models/Sale.js";
+import Product from "../models/product.js";
+import Stock from "../models/stock.js";
+import Sale from "../models/sale.js";
 
 export const getDashboard = async (req, res) => {
   try {
