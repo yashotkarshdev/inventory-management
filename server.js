@@ -5,7 +5,6 @@ import dotenv from "dotenv";
 import connectDB from "./config/db.js";
 import categoryRoutes from "./routes/categoryRoutes.js";
 import productRoutes from "./routes/productRoutes.js";
-import shopRoutes from "./routes/shopRoutes.js";
 import stockRoutes from "./routes/stockRoutes.js";
 import dashboardRoutes from "./routes/dashboardRoutes.js";
 import saleRoutes from "./routes/saleRoutes.js";
@@ -26,7 +25,6 @@ app.use(express.json());
 // routes
 app.use("/api/categories", categoryRoutes);
 app.use("/api/products", productRoutes);
-app.use("/api/shops", shopRoutes);
 app.use("/api/stock", stockRoutes);
 app.use("/api/dashboard", dashboardRoutes);
 app.use("/api/sales", saleRoutes);
